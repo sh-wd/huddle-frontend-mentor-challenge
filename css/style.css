@@ -1,0 +1,386 @@
+/* web fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Poppins:wght@600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+/* main text styles */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem; /* 40px/16px */
+  color: #00252e;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.75rem; /* 28px/16px */
+  color: #00252e;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem; 
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header */
+
+header {
+  width: auto;
+  height: 40.625rem;
+  background-image: url("../images/bg-hero-desktop.svg");
+  background-color: #ebfbff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 150px;
+  padding: 3rem 7rem;
+}
+
+.logo-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.logo {
+  width: 200px;
+  height: 32px;
+}
+
+.white-button {
+  font-size: 0.9375rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #00252e;
+  border: none;
+  background-color: #fff;
+  width: 13.75rem;
+  padding: 0.9375rem;
+  border-radius: 2.25rem;
+  box-shadow: 0 0.2rem 0.8rem #00252e1a;
+}
+
+.title-flex {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-text {
+  width: 28.125rem; /* 450px/16px */
+}
+
+.header-paragraph {
+  color: #1c4a73;
+  width: 34.375rem;
+  font-weight: 100;
+}
+
+.mockup-img > img {
+  max-width: 90%;
+  padding-left: 10%
+}
+
+.header-button {
+  color: #fff;
+  font-size: 0.9375rem;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  background-color: #ff52bf;
+  width: 50%;
+  padding: 1.25rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.2rem 0.8rem #00252e1a;
+}
+
+/* main body */
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7.5%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.2rem 0.8rem #00252e1a;
+  height: 30rem;
+  margin-bottom: 3rem;
+}
+
+.container-text {
+  width: 530px;
+}
+
+.container-img {
+  width: 35%;
+}
+
+.container-paragraph {
+  color: #808d99;
+}
+
+.container-reverse {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.2rem 0.8rem #00252e1a;
+  height: 30rem;
+  margin-bottom: 3rem;
+}
+
+/* footer */
+
+.container-2 {
+  text-align: center;
+  background-color: #fff;
+  width: 60%;
+  height: 15rem;
+  box-shadow: 0 0.2rem 0.8rem #00252e1a;
+  border-radius: 1.25rem;
+  padding: 3rem 0 1.5rem 0;
+  margin: auto;
+  position: relative;
+  top: -30%;
+}
+
+.bottom-button {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  background-color: #ff52bf;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 3rem;
+  box-shadow: 0 0.2rem 0.8rem #00252e33;
+}
+
+.footer {
+  margin-top: 22rem;
+  height: 40rem;
+  background-color: #00252e;
+  color: #808d99;
+}
+
+.logo-white {
+  position: relative;
+  top: -6rem;
+  left: 7.5%;
+}
+
+.footer-container {
+  margin: -4rem 7.5% 0 7.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  flex-basis: 35%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.contact-icon {
+  margin: 1.3rem 1rem 0 0;
+  min-width: 20px;
+}
+
+.footer-nav-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  margin: 0.8rem 0;
+  font-size: 1.125rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: solid .5px #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.copyright {
+  font-size: 0.875rem;
+}
+
+/* media queries for phones 600px and below */
+
+@media only screen and (max-width: 37.5em) {
+  
+  body {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 { 
+    font-size: 1.425rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  header {
+    background-image: url("../images/bg-hero-mobile.svg");
+    padding: 2rem 1rem;
+    height: 43rem;
+    margin-bottom: 50px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 16px;
+  }
+  
+  .white-button {
+    font-size: 0.625rem;
+    padding: 0.5rem;
+    width: 7rem;
+  }
+  
+  .title-flex {
+    flex-direction: column;
+  }
+  
+  .title {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .header-text {
+    width: inherit;
+  }
+  
+  .header-paragraph {
+    width: inherit;
+  }
+  
+  .header-button {
+    margin: 2rem;
+    font-size: 0.625rem;
+    width: 75%;
+    padding: 0.75rem;
+  }
+  
+  .mockup-img > img{
+    padding: 0;
+  }
+  
+  .main-body {
+    margin-bottom: -40%;
+  }
+  
+  .container {
+    flex-direction: column-reverse;
+  }
+  
+  .container-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .container-img {
+    width: 75%;
+  }
+  
+  .container-text {
+    width: 85%;
+  }
+  
+  .container-2 {
+    width: 90%;
+    height: 7rem;
+    top: -20%;
+    margin-bottom: 2rem;
+  }
+  
+  .container-2 > h1 {
+    font-size: 1.15rem;
+  }
+  
+  .bottom-button {
+    margin: 2rem;
+    font-size: 0.5rem;
+    width: 60%;
+    padding: 0.75rem; 
+    margin: 1rem;
+  }
+  
+  .footer {
+    height: 50rem;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .logo-white {
+    width: 150px;
+    left: -22.5%;
+  }
+  
+  .footer-container {
+    margin-top: -6.5rem;
+  }
+  
+  .contact {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-link {
+    margin: 0.5rem 0;
+  }
+  
+  .social { 
+    align-items: center;
+    margin: 2rem 0 0 0;
+  }
+  
+  .social-icon {
+    margin: 1rem;
+  }
+}
